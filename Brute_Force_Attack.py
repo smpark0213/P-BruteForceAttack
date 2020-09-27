@@ -19,17 +19,16 @@ def string_input():
 	#3번 파트, 생성 된 문자열 입력 및 T/F판정
 	#최지혁, 윤성우
 	'''
-	make_string에서 만든 문자열을  solve_key 변수에 저장.
-	solve_key 변수의 값을 zipfile_check에서 입력받은 경로의 zip파일 압축해제시 필요한 pwd 값에 대입.
+	make_string에서 만든 문자열을  made_key 변수에 저장.
+	made_key 변수의 값을 zipfile_check에서 입력받은 경로의 zip파일 압축해제시 필요한 pwd 값에 대입.
 	틀리면 다음 문자열로 변경, 맞으면 그 문자열 리턴.
 	'''
-	solve_key = make_string()
+	made_key = make_string()
 
 
 
 def main():
 	
-
 	
 if __name__ == "__main__":
 	main()
